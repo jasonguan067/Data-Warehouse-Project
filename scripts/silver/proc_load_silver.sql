@@ -12,8 +12,7 @@ BEGIN
         PRINT 'Loading CRM Tables';
         PRINT '=========================================';
 
-        -- Fix column name typo
-        EXEC sp_rename 'silver.crm_cust_info.cst_material_status', 'cst_marital_status', 'COLUMN';
+
 
         -- crm_cust_info
         SET @start_time = GETDATE();
