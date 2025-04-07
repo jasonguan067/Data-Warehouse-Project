@@ -55,7 +55,11 @@ The Gold Layer transforms integrated Silver data into actionable business intell
 - Logical grouping of related metrics
 
 
-
+### Implementation Stack  
+- ETL: Azure Data Factory  
+- Storage: SQL Server 2022  
+- Analytics: Power BI  
+- Version Control: Git  
 
 
 
